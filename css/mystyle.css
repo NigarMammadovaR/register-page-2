@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register{
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+ a{
+    color: black;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.form-left h2{
+    font-size: 40px;
+    text-align: left;
+    padding-top: 40px;
+    margin-left: 70px;
+}
+.form-left form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.form-left input{
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.user{
+    position: absolute;
+    top: 25px;
+    left: 60px;
+}
+.envelope{
+    position: absolute;
+    top: 80px;
+    left: 60px;
+}
+.lock{
+    position: absolute;
+    bottom: 198px;
+    left: 60px;
+}
+.unlock{
+    position: absolute;
+    bottom: 146px;
+    left: 60px;
+}
+
+form span{
+    color:gray
+}
+.Name{
+    position: absolute;
+    top: 25px;
+    left: 100px;
+}
+.Email{
+    position: absolute;
+    top: 75px;
+    left: 100px;
+}
+.Password{
+    position: absolute;
+    bottom: 198px;
+    left: 100px;
+}
+.Repeat{
+    position: absolute;
+    bottom: 143px;
+    left: 100px;
+}
+.agreement{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.agreement input{
+    margin: 15px 20px 0px 0px;
+    width: 20px;
+    height: 20px;
+}
+.agreement label{
+    font-size: 14px;
+    margin: 15px 15px 0px 0px;
+}
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(124, 124, 214);
+    color: white;
+    margin: 55px 0px 0px 55px;
+    align-self: flex-start;
+}
+
